@@ -1,0 +1,79 @@
+
+.main-blog{
+  margin-top: 330px;
+ /* Subtle shadow for depth */
+  clear: both;
+
+}
+.blog-section {
+   display: flex;
+   flex-direction: row;
+    column-gap: 0.5rem;
+  
+   /* Subtle shadow for depth */
+    clear: both;
+
+    padding: 50px 150px;
+   
+    color: #000000;
+    text-align: left;
+  
+  }
+  .travel-head{
+    display: flex;
+    flex-direction: row;
+  }
+  .blog-section h2 {
+    color: #000000; /* Main theme color */
+    text-align: center;
+    margin-bottom: 20px; /* Spacing below the heading */
+  }
+  
+  .blog-post {
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #d3e7e9; /* White background for posts */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for each post */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .blog-post h3 {
+    color: #66A5AD; /* Consistent color for post titles */
+    margin: 0 0 5px; /* Spacing below the title */
+  }
+  
+  .blog-post .date {
+    font-size: 0.9em; /* Slightly smaller font for date */
+    color: #5e5d5d; /* Gray color for the date */
+    margin-bottom: 10px; /* Spacing below the date */
+  }
+  
+  .blog-post p {
+    line-height: 1.6; /* Improved readability */
+    color: #333; /* Darker text for content */
+  }
+  .blog-post :hover{
+   font-size: larger;
+
+  }
+  .travel-tip-gif{
+    width: 100px;
+  }
+
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .blog-section {
+      padding: 15px;
+    }
+  
+    .blog-post {
+      padding: 10px; /* Less padding on smaller screens */
+    }
+  
+    .blog-post h3 {
+      font-size: 1.2em; /* Adjust title size for smaller screens */
+    }
+  }
+  

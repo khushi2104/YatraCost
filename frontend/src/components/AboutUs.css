@@ -1,0 +1,54 @@
+/* aboutus.css */
+
+.about-us {
+    padding: 50px 150px;
+   
+    color: #000000;
+    text-align: left;
+     /* Add some margin to ensure it doesn't overlap */
+    
+    clear: both; /* Ensure it clears any floats above */
+}
+.text-sec{
+    height: 400px;
+    width: 600px;
+    float: right;
+    color: #49a4b0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.img-sec
+{
+    float: left;
+    height: 60vh;
+}
+.about-us h2 {
+    margin-top: 20px;
+    font-size: 34px;
+    color: #3e9fb9;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #000000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .about-us {
+        padding: 20px;
+    }
+    
+    .about-us h2 {
+        font-size: 28px;
+    }
+    
+    .about-us p {
+        font-size: 16px;
+    }
+}

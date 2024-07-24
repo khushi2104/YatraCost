@@ -1,0 +1,192 @@
+src/components/FareEstimator.css
+
+body {
+    background-color: #C4DFE6;
+    font-family: 'Arial', sans-serif;
+}
+.main-sec{
+    float: left;
+}
+.swiper{
+    float: right;
+
+}
+.tag-line-box {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 10px 150px;
+    margin-top: 160px;
+  
+}
+
+.tag-sub {
+    text-align: center;
+}
+
+.tag-line {
+    font-size: 34px;
+    color: #66A5AD; /* Gold color */
+    margin-bottom: 6px;
+}
+
+.tag-sub {
+    font-size: 18px;
+    color: #66A5AD; /* Gold color */
+}
+
+@media (max-width: 480px) {
+    .tag-line {
+        font-size: 20px;
+    }
+
+    .tag-sub {
+        font-size: 16px;
+    }
+}
+.main-box {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    height: 70vh;
+    padding-left: 130px;
+}
+
+.sub-box { 
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.heading {
+    color: #66A5AD;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.src-comp, .dest-comp, .vehi-comp {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #66A5AD;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 16px;
+    border: 0.2px solid #66A5AD;
+    border-radius: 5px;
+    background-color: #c4e5ea;
+    color: #0d0d0d;
+    outline: none;
+}
+
+input::placeholder {
+    color: #5f5d5d;
+}
+
+.btn-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cal-btn, .cal-btn2 {
+    width: 50%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #66A5AD;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cal-btn:hover , .cat-btn2:hover {
+    background-color: #50c7d7;
+}
+
+p {
+    color: #66A5AD;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .sub-box {
+        padding: 20px;
+    }
+    
+    .heading {
+        font-size: 20px;
+    }
+
+    input, select {
+        width: calc(100% - 10px);
+    }
+
+    .cal-btn {
+        font-size: 16px;
+    }
+}
+/* styles.css */
+
+/* Swiper Styles */
+.swiper {
+    width: 700px;
+    height: 2000px;
+    
+    margin-top: 340px;
+  }
+
+  /* General styles for the swiper container */
+.swiper {
+    width: 700px;
+    height: 100vh;
+    margin-top: 200px;
+   
+    visibility:visible;
+  }
+  
+  /* Styles for the image */
+  .swiper img {
+    width: auto; /* Adjust size as needed */
+    display: block; /* Ensure no gaps below the image */
+    background: none;
+   height: 80vh; /* Maintain aspect ratio */
+    animation: moveUpDown 1s infinite alternate ease-in-out;
+   
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+  }
+  
+ .swiper img{
+    padding-right: 50px;
+    
+ }
+
+ .weather-div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 70px;
+ }
+
+ 

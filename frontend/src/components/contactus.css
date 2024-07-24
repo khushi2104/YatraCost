@@ -1,0 +1,94 @@
+/* contactus.css */
+
+.contact-us {
+    padding: 50px 400px;
+    background-color: #ffffff;
+    color: #66A5AD;
+    text-align: left;
+    margin-top: 50px;  /* Add some margin to ensure it doesn't overlap */
+   
+    clear: both; /* Ensure it clears any floats above */
+}
+
+.contact-us h2 {
+    font-size: 34px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-us p {
+    font-size: 18px;
+    line-height: 1rem;
+   
+}
+
+.contact-us-gif {
+    display: block;
+    margin: 0 auto 0px;
+    max-width: 50%;
+    height: auto;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-us label {
+    font-size: 16px;
+    color: #96c1c7;
+}
+
+.contact-us input, .contact-us textarea {
+    padding: 10px;
+    border: 1px solid #66A5AD;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #c4e5ea;
+    color: #0d0d0d;
+    outline: none;
+}
+
+.contact-us input::placeholder, .contact-us textarea::placeholder {
+    color: #5f5d5d;
+}
+
+.contact-us button {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #66A5AD;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-us button:hover {
+    background-color: #50c7d7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .contact-us {
+        padding: 20px;
+    }
+    
+    .contact-us h2 {
+        font-size: 28px;
+    }
+    
+    .contact-us p, .contact-us label {
+        font-size: 16px;
+    }
+
+    .contact-us input, .contact-us textarea {
+        font-size: 14px;
+    }
+
+    .contact-us button {
+        font-size: 16px;
+    }
+}
